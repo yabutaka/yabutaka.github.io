@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-04T00:53:21-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Takashi Yabuta</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">iOS Apps</title><link href="http://localhost:4000/first-post/" rel="alternate" type="text/html" title="iOS Apps" /><published>2019-12-04T00:00:00-08:00</published><updated>2019-12-04T00:00:00-08:00</updated><id>http://localhost:4000/first-post</id><content type="html" xml:base="http://localhost:4000/first-post/">&lt;h2 id=&quot;ios-apps&quot;&gt;iOS Apps&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://g.recordit.co/6xXfY4HI9r.gif&quot; title=&quot;Video Walkthrough&quot; width=&quot;&quot; alt=&quot;Video Walkthrough&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;'http://g.recordit.co/6xXfY4HI9r.gif'&quot;&gt;Parstagram&lt;/a&gt; is a simplified version of Instagram. This app uses Parse as the database, and log-in and other basic features of Instagram are implemented. &lt;a href=&quot;https://github.com/yabutaka/Parstagram&quot;&gt;Check the repository on GitHub from this link.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://g.recordit.co/2lwlABHpEU.gif&quot; title=&quot;Video Walkthrough&quot; width=&quot;&quot; alt=&quot;Video Walkthrough&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;'http://g.recordit.co/2lwlABHpEU.gif'&quot;&gt;Flixster&lt;/a&gt; is a movie recommendation app. You can scroll movies and click a movie to check the detail. This app uses a movie database API. &lt;a href=&quot;https://github.com/yabutaka/flixster&quot;&gt;Check the repository on GitHub from this link.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>yabutaka</name></author><category term="jekyll" /><summary type="html">iOS Apps</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /></entry></feed>
