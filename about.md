@@ -4,8 +4,9 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>My name is Takashi Yabuta. I am a Data Science major at University of California, San Diego. My current interest is Natural Language Processing and Machine Learning.</p>
+<p>Hello, my name is Takashi Yabuta. I am a Data Science major at University of California, San Diego. My current interest is Natural Language Processing and Machine Learning.</p>
 
+<p>I will post about interesting projects more in the future.</p>
 
 <h2>Skills</h2>
 
