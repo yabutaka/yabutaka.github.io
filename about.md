@@ -13,7 +13,7 @@ layout: page
 <ul class="skill-list">
 	<li>Python</li>
 	<li>Java</li>
-	<li>Swift</li>
+	<li>Swift (iOS)</li>
 	<li>Pandas - Matplotlib - Scikit-learn</li>
 </ul>
 

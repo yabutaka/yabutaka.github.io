@@ -12,7 +12,7 @@ author: yabutaka
 externalLink: false
 ---
 
-During the first year of college, I enrolled in [iOS specialization at Code Path](https://codepath.org/), a bootcamp on iOS development. During the course of the 10-week-program, I learned how to make a fake Instagram app and a fake Twitter app. Here are the demonstrations.
+During the first year of college, I enrolled in [iOS specialization at Code Path](https://codepath.org/), a bootcamp on iOS development. The 10-week-program taught me how to make a fake Instagram app and a fake Twitter app. Here are the clips showing the apps.
 
 - ## Parstagram
 
