@@ -1,6 +1,6 @@
 # main text of home
 name: Takashi Yabuta
-bio: A man who travels the world doing kendo
+bio: Data Science major at UC San Diego
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -13,8 +13,8 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+resume-url: /assets/Resume.pdf
 
 url: https://yabutaka.github.io
 # your url: http://USERNAME.github.io
