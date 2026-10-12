@@ -1,4 +1,66 @@
----
-layout: page
-title: Home
----
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Takashi Yabuta</title>
+<meta name="description" content="Takashi Yabuta is a software engineer at DoorDash in Vancouver, BC.">
+<meta property="og:title" content="Takashi Yabuta">
+<meta property="og:description" content="Software engineer at DoorDash in Vancouver, BC.">
+<meta property="og:image" content="https://yabutaka.github.io/assets/profile.jpg">
+<meta property="og:url" content="https://yabutaka.github.io/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/profile.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=VT323&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<canvas id="field" aria-hidden="true"></canvas>
+
+<main>
+  <header class="intro">
+    <img class="avatar" src="assets/profile.jpg" alt="Takashi on a lake in Central Park" width="88" height="88">
+    <div>
+      <h1>takashi yabuta</h1>
+      <p class="sub">software engineer · vancouver, bc</p>
+    </div>
+  </header>
+
+  <p>Hi! I'm a software engineer at DoorDash, where I build <mark>backend systems</mark> that move a lot of data. Outside work I tinker with <mark>LLM agents</mark> and <mark>iOS AR apps</mark>. I speak English and 日本語.</p>
+
+  <nav aria-label="Links">
+    <a href="https://github.com/yabutaka">github</a>
+    <a href="https://www.linkedin.com/in/takashi-yabuta">linkedin</a>
+  </nav>
+
+  <section>
+    <h2>work</h2>
+    <ul>
+      <li><span class="when">2022 – now</span><span>DoorDash <span class="what">· software engineer</span></span></li>
+      <li><span class="when">2020, 2021</span><span>Oracle <span class="what">· software engineer intern</span></span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>projects</h2>
+    <ul>
+      <li><span class="when">agent</span><span><a href="https://github.com/yabutaka/hauru-bot">Minecraft AI Agent</a> <span class="what">· an LLM agent that plays Minecraft</span></span></li>
+      <li><span class="when">ios</span><span>Aremo <span class="what">· voice chat with AR avatars</span></span></li>
+      <li><span class="when">ios</span><span>ShARe <span class="what">· make and share AR objects</span></span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>education</h2>
+    <ul>
+      <li><span class="when">2018 – 2022</span><span>UC San Diego <span class="what">· B.S. Data Science, minor in Math</span></span></li>
+    </ul>
+  </section>
+</main>
+
+<script src="assets/field.js"></script>
+</body>
+</html>
