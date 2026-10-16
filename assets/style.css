@@ -71,6 +71,15 @@ a {
 a:hover { text-decoration-thickness: 5px; }
 a:focus-visible { outline: 2px solid var(--mark); outline-offset: 3px; }
 
+/* top-right pill linking to the 3D desk, mirroring the "plain" pill there */
+.corner {
+  position: fixed; top: 16px; right: 16px; z-index: 2;
+  padding: 2px 12px; border-radius: 999px;
+  background: var(--bg); border: 1px solid #d3d5dd;
+  text-decoration: none; color: var(--fg);
+}
+.corner:hover { border-color: var(--link); }
+
 ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
 li { display: grid; grid-template-columns: 110px 1fr; gap: 12px; }
 .when { font-variant-numeric: tabular-nums; }
