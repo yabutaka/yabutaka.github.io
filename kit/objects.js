@@ -416,26 +416,26 @@ export function topoMap(ctx, { x, y, z, w = 0.5, h = 0.375, rotY = 0, frame = 0x
 
 // Postcards pinned to the wall, one per room. Clicking one takes you there.
 const ROOMS = [
-  { key: 'powder', label: 'powder', href: '/room/', draw(g) {
+  { key: 'powder', label: 'powder', href: '/', draw(g) {
     sky(g, '#8193ab', '#d3dbe4'); hills(g, '#eef2f7', 120, 30); hills(g, '#f7f9fc', 160, 18);
     g.strokeStyle = '#2a2d33'; g.lineWidth = 2; g.beginPath(); g.moveTo(40, 200); g.lineTo(200, 90); g.stroke();
     for (let i = 0; i < 4; i++) g.fillRect(70 + i * 40, 175 - i * 27, 3, 18);
     g.fillStyle = '#23392c'; for (let i = 0; i < 9; i++) tree(g, 20 + i * 30 + rand(-6, 6), 215, 22);
     g.fillStyle = '#fff'; for (let i = 0; i < 40; i++) { g.beginPath(); g.arc(rand(20, 280), rand(20, 220), rand(1, 2.5), 0, 7); g.fill(); }
   } },
-  { key: 'night', label: 'night', href: '/room/night/', draw(g) {
+  { key: 'night', label: 'night', href: '/night/', draw(g) {
     sky(g, '#0b1530', '#3a2f45'); hills(g, '#080a14', 120, 40);
     for (let i = 0; i < 90; i++) { g.fillStyle = Math.random() < 0.7 ? '#ffc27a' : '#bfd4ff'; g.fillRect(rand(20, 280), rand(160, 220), 2, 2); }
     g.strokeStyle = 'rgba(160,180,220,0.45)'; g.lineWidth = 1;
     for (let i = 0; i < 40; i++) { const x = rand(20, 280), y = rand(20, 200); g.beginPath(); g.moveTo(x, y); g.lineTo(x - 3, y + 14); g.stroke(); }
   } },
-  { key: 'harbour', label: 'harbour', href: '/room/harbour/', draw(g) {
+  { key: 'harbour', label: 'harbour', href: '/harbour/', draw(g) {
     sky(g, '#3f7fd0', '#d8e7f2'); hills(g, '#9aa8b8', 110, 50); hills(g, '#4f5c56', 140, 30);
     g.fillStyle = '#2a6a90'; g.fillRect(20, 160, 260, 60);
     g.fillStyle = 'rgba(255,255,255,0.8)'; for (let i = 0; i < 30; i++) g.fillRect(rand(20, 280), rand(165, 218), 4, 1);
     g.fillStyle = '#fff'; g.beginPath(); g.moveTo(180, 160); g.lineTo(180, 118); g.lineTo(200, 158); g.fill();
   } },
-  { key: 'cabin', label: 'cabin', href: '/room/trailhead/', draw(g) {
+  { key: 'cabin', label: 'cabin', href: '/trailhead/', draw(g) {
     sky(g, '#2a68c8', '#d2e6f5'); hills(g, '#7b818a', 90, 60);
     g.fillStyle = '#fff'; g.beginPath(); g.moveTo(130, 72); g.lineTo(150, 50); g.lineTo(172, 76); g.fill();
     g.fillStyle = '#24412b'; for (let i = 0; i < 12; i++) tree(g, 20 + i * 23, 165, 30);

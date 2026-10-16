@@ -12,7 +12,7 @@ import { postcards } from '../kit/objects.js';
 
 const veil = document.getElementById('veil');
 if (!WebGL.isWebGL2Available()) {
-  veil.innerHTML = 'no webgl here. <a href="/">see the plain version</a>';
+  veil.innerHTML = 'no webgl here. <a href="/plain/">see the plain version</a>';
   throw new Error('WebGL2 unavailable');
 }
 

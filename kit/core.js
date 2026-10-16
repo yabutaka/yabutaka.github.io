@@ -119,7 +119,7 @@ export function createDesk(cfg = {}) {
   } = cfg;
   const veil = document.getElementById('veil');
   if (!WebGL.isWebGL2Available()) {
-    veil.innerHTML = 'no webgl here. <a href="/">see the plain version</a>';
+    veil.innerHTML = 'no webgl here. <a href="/plain/">see the plain version</a>';
     throw new Error('WebGL2 unavailable');
   }
   const VIEW = { look: [0, 0.98, -0.15], width: 1.45, portraitWidth: 0.72, rise: 0.2, ...view };
